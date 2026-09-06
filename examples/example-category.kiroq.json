@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "kind": "kiro-question-bank-category",
+  "exportedAt": "2026-09-06T22:45:00.000Z",
+  "category": {
+    "name": "Example Book",
+    "description": "Example book-based question bank category",
+    "subcategories": [
+      {
+        "name": "Chapter 1 Questions",
+        "description": null,
+        "questions": [
+          {
+            "type": "mcq",
+            "bodyMarkdown": "Which option is correct?",
+            "explanationMarkdown": "This is an example explanation.",
+            "options": [
+              { "bodyMarkdown": "Correct option", "correct": true },
+              { "bodyMarkdown": "Incorrect option", "correct": false }
+            ]
+          },
+          {
+            "type": "multi_select",
+            "bodyMarkdown": "Select both correct options.",
+            "explanationMarkdown": null,
+            "options": [
+              { "bodyMarkdown": "Correct A", "correct": true },
+              { "bodyMarkdown": "Correct B", "correct": true },
+              { "bodyMarkdown": "Incorrect C", "correct": false }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
